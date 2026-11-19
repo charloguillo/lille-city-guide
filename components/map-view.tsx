@@ -244,8 +244,17 @@ export default function MapView({
   useEffect(() => {
     const map = mapRef.current
     const p = places.find((x) => x.id === selectedId)
-    if (map && p)
-      map.easeTo({ center: [p.lng, p.lat], offset: [0, -120], duration: 300 })
+    if (map && p) {
+      map.resize()
+      map.flyTo({
+        center: [p.lng, p.lat],
+        zoom: Math.max(map.getZoom(), 16),
+        // The sheet covers the bottom: center the pin in the visible part.
+        offset: [0, -Math.round(map.getContainer().clientHeight * 0.3)],
+        duration: 600,
+        essential: true,
+      })
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedId])
 

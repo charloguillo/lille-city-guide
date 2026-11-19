@@ -46,6 +46,21 @@ export default function Page() {
   )
   const selected = places.find((p) => p.id === selectedId) ?? null
   const onSelect = useCallback((id: string) => setSelectedId(id), [])
+  // From the list: show the place on the map, with its pin. Closing the sheet goes back to the list.
+  const [fromList, setFromList] = useState(false)
+  const onSelectFromList = useCallback((id: string) => {
+    setFromList(true)
+    setMode("details")
+    setTab(0)
+    setSelectedId(id)
+  }, [])
+  const onCloseSheet = () => {
+    setSelectedId(null)
+    if (fromList) {
+      setFromList(false)
+      setTab(1)
+    }
+  }
   const showDiet = categories.includes("restaurant")
 
   return (
@@ -65,7 +80,7 @@ export default function Page() {
           places={visible}
           flags={flags}
           mono={styleId === "bw"}
-          onSelect={onSelect}
+          onSelect={onSelectFromList}
         />
       )}
 
@@ -131,7 +146,13 @@ export default function Page() {
       {/* Bottom tabs */}
       <nav className="absolute inset-x-0 bottom-0 z-10 flex justify-center pb-[calc(env(safe-area-inset-bottom)+12px)]">
         <div className="rounded-2xl bg-white/95 p-1.5 shadow-[0_4px_20px_rgb(0_0_0/0.12)] ring-1 ring-stone-200 backdrop-blur [&_[role=tab]]:min-h-11 [&_[role=tab]]:px-5">
-          <Tabs selectedIndex={tab} onSelect={setTab}>
+          <Tabs
+            selectedIndex={tab}
+            onSelect={(i) => {
+              setFromList(false)
+              setTab(i)
+            }}
+          >
             <TabsItem index={0} icon={Map01} label="Carte" />
             <TabsItem index={1} icon={List} label="Liste" />
           </Tabs>
@@ -142,7 +163,7 @@ export default function Page() {
         place={selected}
         flag={selected ? flags[selected.id] : undefined}
         mono={styleId === "bw"}
-        onClose={() => setSelectedId(null)}
+        onClose={onCloseSheet}
       />
       <SettingsSheet
         open={settingsOpen}

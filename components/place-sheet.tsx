@@ -30,7 +30,12 @@ export function PlaceSheet({
   onClose: () => void
 }) {
   return (
-    <BottomSheet open={!!place} onClose={onClose} title={place?.name}>
+    <BottomSheet
+      open={!!place}
+      onClose={onClose}
+      title={place?.name}
+      modal={false}
+    >
       {place && <PlaceBody place={place} flag={flag} mono={mono} />}
     </BottomSheet>
   )
@@ -63,7 +68,7 @@ function PlaceBody({
             mono={mono}
             priority
             sizes="(max-width: 512px) 100vw, 512px"
-            className="aspect-[3/2] w-full rounded-2xl"
+            className="aspect-[16/9] w-full rounded-2xl"
             caption={
               place.photo_credit && (
                 <figcaption className="mt-1.5 text-[11px] text-stone-400">
