@@ -8,6 +8,8 @@ interface BottomSheetProps {
   open: boolean
   onClose: () => void
   title?: string
+  /** false = no scrim: the map behind stays usable (pan, zoom, tap pins). */
+  modal?: boolean
   children: ReactNode
 }
 
@@ -17,6 +19,7 @@ export function BottomSheet({
   onClose,
   title,
   children,
+  modal = true,
 }: BottomSheetProps) {
   useEffect(() => {
     if (!open) return
@@ -29,15 +32,17 @@ export function BottomSheet({
     <AnimatePresence>
       {open && (
         <>
-          <motion.div
-            key="scrim"
-            className="fixed inset-0 z-40 bg-stone-950/10"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.2, ease: "easeOut" }}
-            onClick={onClose}
-          />
+          {modal && (
+            <motion.div
+              key="scrim"
+              className="fixed inset-0 z-40 bg-stone-950/10"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.2, ease: "easeOut" }}
+              onClick={onClose}
+            />
+          )}
           <motion.div
             key="sheet"
             role="dialog"
