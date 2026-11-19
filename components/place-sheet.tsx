@@ -27,7 +27,12 @@ export function PlaceSheet({
   onClose: () => void
 }) {
   return (
-    <BottomSheet open={!!place} onClose={onClose} title={place?.name}>
+    <BottomSheet
+      open={!!place}
+      onClose={onClose}
+      title={place?.name}
+      modal={false}
+    >
       {place && <PlaceBody place={place} flag={flag} />}
     </BottomSheet>
   )
