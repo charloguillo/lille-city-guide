@@ -13,7 +13,7 @@ Charles is not technical. He prompts changes from his phone. Each change = a bra
 - Next.js (App Router) + TypeScript, created from the Fluid Functionalism starter (shadcn CLI, Base UI flavor).
 - UI: Fluid Functionalism components in `components/ui`. Add more with `npx shadcn@latest add @fluid/base/<name>`. Do not hand-write a component that Fluid already has.
 - Map: MapLibre GL JS + OpenFreeMap vector tiles (`https://tiles.openfreemap.org/styles/positron`). Free, no API key. Not Google Maps (needs billing account + key).
-- Shared flags: Upstash Redis (Vercel Marketplace integration, free tier). Env vars `KV_REST_API_URL` / `KV_REST_API_TOKEN` (or `UPSTASH_REDIS_REST_*`) are injected by Vercel.
+- Shared flags: Upstash Redis (Vercel Marketplace integration, Pay As You Go plan; connected to the Vercel project on 2026-11-19). Env vars `KV_REST_API_URL` / `KV_REST_API_TOKEN` (or `UPSTASH_REDIS_REST_*`) are injected by Vercel.
 - PWA: web manifest + small service worker (app shell + places JSON). Install to home screen.
 - Hosting: Vercel, linked to the GitHub repo `charloguillo/lille-city-guide`. Every PR gets a preview URL. `main` = production.
 - Checks: `npm run lint` and `npm run typecheck` (tsc --noEmit). Plus one small Vitest file for pure logic (distance sort, filters). No E2E.
