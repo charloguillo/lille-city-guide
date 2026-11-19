@@ -68,4 +68,4 @@ Flags shape (Redis hash `flags`, field = place id): `{ mustDo: boolean, done: bo
 - `npx shadcn add ... --overwrite` is needed in a non-interactive shell.
 - Without Redis env vars (local dev), `/api/flags` falls back to an in-memory map, and the client still works from localStorage.
 - Place ids are keys in Redis. Renaming an id loses its flags.
-- Photos: `photo_url` is a remote image (place's own site, blog, Le Fooding, Office de Tourisme, Wikimedia). Served through next/image, so its host must be in `PHOTO_HOSTS` in `next.config.ts`. Do not use Instagram, Facebook or Google Maps image URLs: they expire. Photos are grayscale in "Noir et blanc" mode. The sandbox server cannot fetch them: set `PHOTOS_UNOPTIMIZED=1` for local screenshots.
+- Photos: `photo_url` is a remote image (place's own site, blog, Le Fooding, Office de Tourisme, Wikimedia). Served through next/image, so its host must be in `PHOTO_HOSTS` in `next.config.ts`. Do not use Instagram, Facebook or Google Maps image URLs: they expire. Photos stay in color, even in "Noir et blanc" mode (Charles asked). The sandbox server cannot fetch them: set `PHOTOS_UNOPTIMIZED=1` for local screenshots.

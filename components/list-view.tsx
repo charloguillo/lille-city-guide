@@ -17,12 +17,10 @@ import { cn } from "@/lib/utils"
 export function ListView({
   places,
   flags,
-  mono,
   onSelect,
 }: {
   places: Place[]
   flags: Flags
-  mono: boolean
   onSelect: (id: string) => void
 }) {
   const [pos, setPos] = useState<LatLng | null>(null)
@@ -58,7 +56,7 @@ export function ListView({
                 )}
               >
                 <span className="relative size-14 shrink-0">
-                  <PlacePhotoOrIcon place={p} mono={mono} />
+                  <PlacePhotoOrIcon place={p} />
                   <span
                     className={cn(
                       "absolute -right-1.5 -bottom-1.5 grid size-6 place-items-center rounded-full ring-2 ring-white",
@@ -98,7 +96,7 @@ export function ListView({
   )
 }
 
-function PlacePhotoOrIcon({ place, mono }: { place: Place; mono: boolean }) {
+function PlacePhotoOrIcon({ place }: { place: Place }) {
   const Icon = CATEGORY_ICON[place.category]
   const icon = (
     <span className="grid size-14 place-items-center rounded-xl bg-stone-100 text-stone-400">
@@ -110,7 +108,6 @@ function PlacePhotoOrIcon({ place, mono }: { place: Place; mono: boolean }) {
     <PlacePhoto
       src={place.photo_url}
       alt=""
-      mono={mono}
       sizes="56px"
       className="size-14 rounded-xl"
       fallback={icon}
