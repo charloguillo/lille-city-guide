@@ -21,12 +21,10 @@ function directionsUrl(p: Place) {
 export function PlaceSheet({
   place,
   flag,
-  mono,
   onClose,
 }: {
   place: Place | null
   flag?: Flag
-  mono: boolean
   onClose: () => void
 }) {
   return (
@@ -36,20 +34,12 @@ export function PlaceSheet({
       title={place?.name}
       modal={false}
     >
-      {place && <PlaceBody place={place} flag={flag} mono={mono} />}
+      {place && <PlaceBody place={place} flag={flag} />}
     </BottomSheet>
   )
 }
 
-function PlaceBody({
-  place,
-  flag,
-  mono,
-}: {
-  place: Place
-  flag?: Flag
-  mono: boolean
-}) {
+function PlaceBody({ place, flag }: { place: Place; flag?: Flag }) {
   const Icon = CATEGORY_ICON[place.category]
   const mustDo = !!flag?.mustDo
   const done = !!flag?.done
@@ -65,7 +55,6 @@ function PlaceBody({
             key={place.id}
             src={place.photo_url}
             alt={place.name}
-            mono={mono}
             priority
             sizes="(max-width: 512px) 100vw, 512px"
             className="aspect-[16/9] w-full rounded-2xl"

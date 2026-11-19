@@ -5,13 +5,12 @@ import { useState, type ReactNode } from "react"
 import { cn } from "@/lib/utils"
 
 /**
- * Photo of a place. Black and white when the map is in "Noir et blanc" mode.
+ * Photo of a place. Always in color (Charles prefers it).
  * If the remote image fails to load, shows `fallback` (or nothing).
  */
 export function PlacePhoto({
   src,
   alt,
-  mono,
   sizes,
   className,
   priority,
@@ -20,7 +19,6 @@ export function PlacePhoto({
 }: {
   src: string
   alt: string
-  mono: boolean
   sizes: string
   className?: string
   priority?: boolean
@@ -43,7 +41,6 @@ export function PlacePhoto({
           onLoad={() => setLoaded(true)}
           className={cn(
             "object-cover transition-[opacity,filter] duration-300 ease-out",
-            mono && "contrast-[1.05] grayscale",
             loaded ? "opacity-100" : "opacity-0"
           )}
         />
