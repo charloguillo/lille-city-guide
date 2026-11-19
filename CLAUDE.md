@@ -44,11 +44,14 @@ Flags shape (Redis hash `flags`, field = place id): `{ mustDo: boolean, done: bo
 4. Tap a pin -> bottom sheet. Buttons: "À faire" (must do), "Fait" (done), "Y aller" (opens Apple Plans / Google Maps directions).
 5. Tab "Liste" -> same filters, sorted by distance from the user's GPS position (fallback: Grand Place).
 6. Walks show their route as a line in "Détails" mode.
+7. Settings menu (gear icon, top right, opens a sheet): map style "Noir et blanc" (OpenFreeMap positron, default) / "Couleur" (OpenFreeMap liberty). Built so more modes can be added later (dark, etc.). Choice saved in localStorage.
 
 ## Art direction
 - Premium, calm, black and white. No teal: remove the starter accent. Accent = black (light theme).
 - Grays: Tailwind `stone` (warm gray with a hint of yellow).
-- Map: OpenFreeMap "positron" style (light gray), pins black (must do) or stone-500 (others). Heatmap ramp in stone/black, never rainbow.
+- Map: OpenFreeMap "positron" style (light gray) by default; "liberty" in color mode (settings).
+- Pins: round markers with a category icon (Untitled UI icons), so the place type reads at a glance (fork-knife = restaurant, coffee = café, glass = bar, bag = shop, hanger = thrift, frame = gallery, building = museum, footprints = walk, eye = viewpoint, star = local). Must do = black fill + white icon. Others = white fill + stone icon + thin border.
+- Heatmap ramp in stone/black, never rainbow.
 - Fonts: Inter (body, opsz axis) + Plus Jakarta Sans for headings (see starter instructions).
 - Motion: short and smooth (150–300 ms), ease-out. Sheet slides up, pins fade/scale in, Ambiance/Détails crossfade. Respect `prefers-reduced-motion` (FluidProvider already does).
 - Light theme only in v1. Dark theme is in docs/FRIDGE.md.
