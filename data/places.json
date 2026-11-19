@@ -1,0 +1,823 @@
+[
+ {
+  "id": "bleu-canard",
+  "name": "Bleu Canard",
+  "category": "restaurant",
+  "address": "27 Rue Pierre Mauroy, 59800 Lille",
+  "why": "Grande cantine rétro de l'équipe de Pickles. Cuisine du marché, 16 à 35 €.",
+  "source_url": "https://lefooding.com/restaurants/bleu-canard",
+  "tags": [
+   "fooding",
+   "bistrot"
+  ],
+  "lat": 50.636335,
+  "lng": 3.0659
+ },
+ {
+  "id": "aokamo",
+  "name": "Aokamo",
+  "category": "restaurant",
+  "address": "25 Rue Pierre Mauroy, 59800 Lille",
+  "why": "Izakaya japonais. Bar debout en bas, bistrot à l'étage.",
+  "source_url": "https://lefooding.com/restaurants/aokamo",
+  "tags": [
+   "fooding",
+   "japonais"
+  ],
+  "lat": 50.636352,
+  "lng": 3.065877
+ },
+ {
+  "id": "bistrot-brigand",
+  "name": "Brigand",
+  "category": "restaurant",
+  "address": "23 Rue de l'Hôpital Militaire, 59800 Lille",
+  "why": "Néobistrot à l'ancienne, carte joueuse et généreuse, petites assiettes.",
+  "source_url": "https://lefooding.com/restaurants/bistrot-brigand",
+  "tags": [
+   "fooding",
+   "néobistrot"
+  ],
+  "lat": 50.633582,
+  "lng": 3.061463
+ },
+ {
+  "id": "krevette",
+  "name": "Krevette",
+  "category": "restaurant",
+  "address": "66 Boulevard Jean-Baptiste Lebas, 59000 Lille",
+  "why": "Bistrot de poisson et fruits de mer dans un ancien café, par Florent Ladeyn.",
+  "source_url": "https://lefooding.com/restaurants/krevette",
+  "tags": [
+   "fooding",
+   "poisson"
+  ],
+  "lat": 50.625011,
+  "lng": 3.068269
+ },
+ {
+  "id": "cafe-bellot",
+  "name": "Café Bellot",
+  "category": "restaurant",
+  "address": "71 Rue Jeanne d'Arc, 59000 Lille",
+  "why": "Bistrot à ardoise ouvert presque toute la journée, quartier Saint-Michel.",
+  "source_url": "https://lefooding.com/restaurants/cafe-bellot",
+  "tags": [
+   "fooding",
+   "bistrot"
+  ],
+  "lat": 50.624254,
+  "lng": 3.06441
+ },
+ {
+  "id": "bloempot",
+  "name": "Bloempot",
+  "category": "restaurant",
+  "address": "22 Rue des Bouchers, 59800 Lille",
+  "why": "Ancienne menuiserie. Cuisine flamande d'auteur par Florence Grave. Plus cher (36 à 50 €).",
+  "source_url": "https://lefooding.com/restaurants/restaurant-bloempot-lille-3",
+  "tags": [
+   "fooding",
+   "flamand"
+  ],
+  "lat": 50.638104,
+  "lng": 3.058315
+ },
+ {
+  "id": "ginko",
+  "name": "Ginko",
+  "category": "restaurant",
+  "address": "70 Rue de l'Hôpital Militaire, 59800 Lille",
+  "why": "Deux jeunes chefs, cuisine surtout végétale, déco japonisante et musique soul.",
+  "source_url": "https://lefooding.com/restaurants/ginko",
+  "tags": [
+   "fooding",
+   "végétarien"
+  ],
+  "lat": 50.635328,
+  "lng": 3.060095
+ },
+ {
+  "id": "beatriz",
+  "name": "Beatriz",
+  "category": "restaurant",
+  "address": "46 Boulevard Jean-Baptiste Lebas, 59000 Lille",
+  "why": "Table mexicaine : ceviche, tacos et margaritas.",
+  "source_url": "https://lefooding.com/restaurants/beatriz",
+  "tags": [
+   "fooding",
+   "mexicain"
+  ],
+  "lat": 50.626388,
+  "lng": 3.068238
+ },
+ {
+  "id": "chez-georges",
+  "name": "Chez Georges",
+  "category": "restaurant",
+  "address": "84 Rue Saint-André, 59800 Lille",
+  "why": "Bistrot du Vieux-Lille référencé par Le Fooding.",
+  "source_url": "https://lefooding.com/en/restaurants/chez-georges",
+  "tags": [
+   "fooding",
+   "bistrot"
+  ],
+  "lat": 50.645096,
+  "lng": 3.057049
+ },
+ {
+  "id": "bouillant",
+  "name": "Bouillant",
+  "category": "restaurant",
+  "address": "358 Rue Léon Gambetta, 59000 Lille",
+  "why": "Adresse de Wazemmes référencée par Le Fooding.",
+  "source_url": "https://lefooding.com/en/restaurants/bouillant",
+  "tags": [
+   "fooding",
+   "wazemmes"
+  ],
+  "lat": 50.626948,
+  "lng": 3.048417
+ },
+ {
+  "id": "estaminet-au-vieux-de-la-vieille",
+  "name": "Au Vieux de la Vieille",
+  "category": "restaurant",
+  "address": "2 Rue des Vieux Murs, 59800 Lille",
+  "why": "Estaminet plein de brocante sur la place aux Oignons. Carbonnade et welsh.",
+  "source_url": "https://en.lilletourism.com/get-out/the-best-addresses/restaurants/estaminet-au-vieux-de-la-vieille-lille-en-4431773",
+  "tags": [
+   "estaminet",
+   "folklore"
+  ],
+  "lat": 50.640863,
+  "lng": 3.061395
+ },
+ {
+  "id": "estaminet-chez-la-vieille",
+  "name": "Chez la Vieille",
+  "category": "restaurant",
+  "address": "60 Rue de Gand, 59800 Lille",
+  "why": "Estaminet vintage et cosy. Potjevleesch, welsh, carbonnade.",
+  "source_url": "https://en.lebonbon.fr/lille/tops-food-and-drink/the-best-bars-in/",
+  "tags": [
+   "estaminet",
+   "folklore"
+  ],
+  "lat": 50.642729,
+  "lng": 3.06685
+ },
+ {
+  "id": "estaminet-la-chtite-brigitte",
+  "name": "La Ch'tite Brigitte",
+  "category": "restaurant",
+  "address": "10 Rue des Bouchers, 59800 Lille",
+  "why": "Estaminet rétro avec une carte écrite en patois.",
+  "source_url": "https://en.lebonbon.fr/lille/tops-food-and-drink/the-best-bars-in/",
+  "tags": [
+   "estaminet",
+   "folklore"
+  ],
+  "lat": 50.638468,
+  "lng": 3.058304
+ },
+ {
+  "id": "estaminet-les-ptiots",
+  "name": "Les Ptiots",
+  "category": "restaurant",
+  "address": "35 Rue de Gand, 59800 Lille",
+  "why": "Cuisine flamande de famille, frites maison.",
+  "source_url": "https://en.lebonbon.fr/lille/tops-food-and-drink/the-best-bars-in/",
+  "tags": [
+   "estaminet",
+   "folklore"
+  ],
+  "lat": 50.64238,
+  "lng": 3.066211
+ },
+ {
+  "id": "estaminet-la-ducasse",
+  "name": "La Ducasse",
+  "category": "bar",
+  "address": "95 Rue Solférino, 59000 Lille",
+  "why": "Estaminet de quartier façon brasserie d'antan, côté Solférino.",
+  "source_url": "https://en.lebonbon.fr/lille/tops-food-and-drink/the-best-bars-in/",
+  "tags": [
+   "estaminet",
+   "folklore",
+   "bière"
+  ],
+  "lat": 50.632221,
+  "lng": 3.053205
+ },
+ {
+  "id": "bienvenue-coffee-shop",
+  "name": "Bienvenue Coffee Shop",
+  "category": "cafe",
+  "address": "79 Rue Esquermoise, 59800 Lille",
+  "why": "Café de spécialité dans une maison classée du 17e. Torréfacteurs invités.",
+  "source_url": "https://europeancoffeetrip.com/cafe/bienvenuecoffeeshop-lille/",
+  "tags": [
+   "café de spécialité"
+  ],
+  "lat": 50.638413,
+  "lng": 3.060176
+ },
+ {
+  "id": "detail-epicerie",
+  "name": "Détail",
+  "category": "cafe",
+  "address": "35 Rue Léonard Danel, 59000 Lille",
+  "why": "Épicerie de quartier et salon de thé rétro, au bord du Vieux-Lille.",
+  "source_url": "https://lefooding.com/commerces/detail",
+  "tags": [
+   "fooding",
+   "épicerie"
+  ],
+  "lat": 50.639879,
+  "lng": 3.056182
+ },
+ {
+  "id": "brood",
+  "name": "Brood",
+  "category": "cafe",
+  "address": "105 Boulevard Victor Hugo, 59000 Lille",
+  "why": "Petite boulangerie au levain, farines de Cassel.",
+  "source_url": "https://lefooding.com/commerces/brood",
+  "tags": [
+   "fooding",
+   "boulangerie"
+  ],
+  "lat": 50.622328,
+  "lng": 3.062366
+ },
+ {
+  "id": "joe-tex-cafe",
+  "name": "Joe Tex Café",
+  "category": "bar",
+  "address": "52 Rue de la Clef, 59800 Lille",
+  "why": "Café cosy avec soirées jazz, soul et funk.",
+  "source_url": "https://theculturetrip.com/europe/france/articles/the-10-best-cafes-and-coffee-shops-in-lille",
+  "tags": [
+   "musique"
+  ],
+  "lat": 50.639241,
+  "lng": 3.06495
+ },
+ {
+  "id": "meert",
+  "name": "Méert",
+  "category": "local",
+  "address": "27 Rue Esquermoise, 59800 Lille",
+  "why": "Institution depuis 1761 : la gaufre fourrée à la vanille de Madagascar. Un classique lillois.",
+  "source_url": "https://en.lilletourism.com/get-out/the-best-addresses/cafes-and-tearooms/",
+  "tags": [
+   "folklore",
+   "gaufre"
+  ],
+  "lat": 50.637754,
+  "lng": 3.06193
+ },
+ {
+  "id": "biovino",
+  "name": "Biovino",
+  "category": "bar",
+  "address": "3 Place Sébastopol, 59000 Lille",
+  "why": "Pionniers du vin nature, plus de 300 références.",
+  "source_url": "https://lefooding.com/caves/biovino",
+  "tags": [
+   "fooding",
+   "vin nature"
+  ],
+  "lat": 50.628762,
+  "lng": 3.058826
+ },
+ {
+  "id": "le-caviste-curieux",
+  "name": "Le Caviste Curieux",
+  "category": "shop",
+  "address": "10 Place Sébastopol, 59000 Lille",
+  "why": "Cave bien choisie et curieuse, pour une bouteille à ramener.",
+  "source_url": "https://lefooding.com/caves/le-caviste-curieux-2",
+  "tags": [
+   "fooding",
+   "vin"
+  ],
+  "lat": 50.628439,
+  "lng": 3.058406
+ },
+ {
+  "id": "la-cave-du-presentoir",
+  "name": "La Cave du Présentoir",
+  "category": "bar",
+  "address": "32 Rue Royale, 59800 Lille",
+  "why": "Bar et cave à vin dans un ancien cabinet médical du Vieux-Lille.",
+  "source_url": "https://lefooding.com/caves/la-cave-du-presentoir",
+  "tags": [
+   "fooding",
+   "vin"
+  ],
+  "lat": 50.639924,
+  "lng": 3.058096
+ },
+ {
+  "id": "laffinee",
+  "name": "L'affinée",
+  "category": "shop",
+  "address": "7 Place Jeanne d'Arc, 59000 Lille",
+  "why": "Fromagerie d'anciens grossistes : 50 fromages à prix justes. Goûter le maroilles.",
+  "source_url": "https://lefooding.com/commerces/laffinee",
+  "tags": [
+   "fooding",
+   "fromage"
+  ],
+  "lat": 50.625948,
+  "lng": 3.064074
+ },
+ {
+  "id": "la-superette",
+  "name": "La Supérette",
+  "category": "shop",
+  "address": "15 bis Rue du Cirque, 59800 Lille",
+  "why": "Boutique coopérative de créateurs lillois : vêtements, bijoux, déco. À vérifier (article de 2018).",
+  "source_url": "https://www.lebonbon.fr/lille/lifestyle/la-superette-la-boutique-cooperative-de-createurs-lillois/",
+  "tags": [
+   "créateurs",
+   "à vérifier"
+  ],
+  "lat": 50.639402,
+  "lng": 3.062057
+ },
+ {
+  "id": "kilo-shop-lille",
+  "name": "Kilo Shop",
+  "category": "thrift",
+  "address": "14 Place des Patiniers, 59800 Lille",
+  "why": "Grande fripe de 300 m², vente au kilo selon la pastille.",
+  "source_url": "https://en.lebonbon.fr/lille/tops-fashion/top-thrift-stores-in/",
+  "tags": [
+   "kilo"
+  ],
+  "lat": 50.639693,
+  "lng": 3.064723
+ },
+ {
+  "id": "bon-chic-bonne-fripe",
+  "name": "Bon Chic Bonne Fripe",
+  "category": "thrift",
+  "address": "234 Rue Léon Gambetta, 59000 Lille",
+  "why": "Sportswear, pièces 70-80, jeans et cuir. Rue pleine de fripes.",
+  "source_url": "https://en.lebonbon.fr/lille/tops-fashion/top-thrift-stores-in/",
+  "tags": [
+   "vintage",
+   "wazemmes"
+  ],
+  "lat": 50.628556,
+  "lng": 3.052193
+ },
+ {
+  "id": "frip-up",
+  "name": "Frip'Up",
+  "category": "thrift",
+  "address": "79 Rue Léon Gambetta, 59000 Lille",
+  "why": "Vintage et basiques à petits prix.",
+  "source_url": "https://en.lebonbon.fr/lille/tops-fashion/top-thrift-stores-in/",
+  "tags": [
+   "wazemmes"
+  ],
+  "lat": 50.63052,
+  "lng": 3.057516
+ },
+ {
+  "id": "be-bop-vintage",
+  "name": "Be Bop Vintage",
+  "category": "thrift",
+  "address": "2 Rue Nicolas Leblanc, 59000 Lille",
+  "why": "Vintage trié, plutôt haut de gamme.",
+  "source_url": "https://en.lebonbon.fr/lille/tops-fashion/top-thrift-stores-in/",
+  "tags": [
+   "vintage"
+  ],
+  "lat": 50.63042,
+  "lng": 3.061223
+ },
+ {
+  "id": "funny-vintage",
+  "name": "Funny Vintage",
+  "category": "thrift",
+  "address": "55 Rue de la Barre, 59800 Lille",
+  "why": "Vintage sélectionné dans le Vieux-Lille.",
+  "source_url": "https://en.lebonbon.fr/lille/tops-fashion/top-thrift-stores-in/",
+  "tags": [
+   "vintage"
+  ],
+  "lat": 50.638494,
+  "lng": 3.055729
+ },
+ {
+  "id": "chez-ugo",
+  "name": "Chez Ugo",
+  "category": "thrift",
+  "address": "3 Place aux Oignons, 59800 Lille",
+  "why": "Fripe homme sur la jolie place aux Oignons.",
+  "source_url": "https://en.lebonbon.fr/lille/tops-fashion/top-thrift-stores-in/",
+  "tags": [
+   "homme"
+  ],
+  "lat": 50.64098,
+  "lng": 3.06159
+ },
+ {
+  "id": "nostalgie-vintage",
+  "name": "Nostalgie",
+  "category": "thrift",
+  "address": "57 Rue de la Monnaie, 59800 Lille",
+  "why": "Vintage des années 30 à nos jours.",
+  "source_url": "https://friptadium.com/blogs/actualites/friperies-lille-meilleures-adresses",
+  "tags": [
+   "vintage"
+  ],
+  "lat": 50.641151,
+  "lng": 3.062485
+ },
+ {
+  "id": "velvet-111",
+  "name": "Velvet 111",
+  "category": "thrift",
+  "address": "30 Rue du Maire André, 59000 Lille",
+  "why": "Boutique vintage.",
+  "source_url": "https://friptadium.com/blogs/actualites/friperies-lille-meilleures-adresses",
+  "tags": [
+   "vintage"
+  ],
+  "lat": 50.63143,
+  "lng": 3.058386
+ },
+ {
+  "id": "ding-fring-saint-pierre",
+  "name": "Ding Fring",
+  "category": "thrift",
+  "address": "8 Rue Saint-Pierre Saint-Paul, 59000 Lille",
+  "why": "Grande fripe solidaire (Le Relais), la moins chère. Ouverte le dimanche matin.",
+  "source_url": "https://friptadium.com/blogs/actualites/friperies-lille-meilleures-adresses",
+  "tags": [
+   "solidaire",
+   "pas cher"
+  ],
+  "lat": 50.627173,
+  "lng": 3.050281
+ },
+ {
+  "id": "institut-pour-la-photographie",
+  "name": "Institut pour la Photographie",
+  "category": "gallery",
+  "address": "11 Rue de Thionville, 59800 Lille",
+  "why": "Lieu dédié à la photo dans un hôtel particulier du Vieux-Lille. Expos gratuites.",
+  "source_url": "https://en.lilletourism.com/explore/hello-culture/museums-and-cultural-venues/all-cultural-sites/institut-pour-la-photographie-lille-en-4431927",
+  "tags": [
+   "photo",
+   "gratuit"
+  ],
+  "lat": 50.643436,
+  "lng": 3.065589
+ },
+ {
+  "id": "tripostal",
+  "name": "Tripostal",
+  "category": "gallery",
+  "address": "22 Avenue Willy Brandt, 59000 Lille",
+  "why": "Ancien centre de tri postal près des gares. Grandes expos d'art contemporain (lille3000).",
+  "source_url": "https://en.lebonbon.fr/lille/culture/dont-miss-the-expos-around-lille-this-back-to-school",
+  "tags": [
+   "art contemporain"
+  ],
+  "lat": 50.6371,
+  "lng": 3.0737
+ },
+ {
+  "id": "gare-saint-sauveur",
+  "name": "Gare Saint-Sauveur",
+  "category": "gallery",
+  "address": "17 Boulevard Jean-Baptiste Lebas, 59000 Lille",
+  "why": "Ancienne gare de marchandises : expos, bar, terrasse et ambiance de friche.",
+  "source_url": "https://en.lebonbon.fr/lille/culture/dont-miss-the-expos-around-lille-this-back-to-school",
+  "tags": [
+   "art contemporain",
+   "friche"
+  ],
+  "lat": 50.627243,
+  "lng": 3.069803
+ },
+ {
+  "id": "maison-folie-wazemmes",
+  "name": "Maison Folie Wazemmes",
+  "category": "gallery",
+  "address": "70 Rue des Sarrazins, 59000 Lille",
+  "why": "Ancienne filature devenue lieu d'expos et de spectacles, avec hammam.",
+  "source_url": "https://en.lilletourism.com/explore/hello-culture/museums-and-cultural-venues/all-cultural-sites/",
+  "tags": [
+   "art contemporain"
+  ],
+  "lat": 50.624937,
+  "lng": 3.04819
+ },
+ {
+  "id": "lam-villeneuve-dascq",
+  "name": "LaM",
+  "category": "museum",
+  "address": "1 Allée du Musée, 59650 Villeneuve-d'Ascq",
+  "why": "Art moderne, contemporain et art brut. Parc de sculptures. Le musée qui colle le mieux à ce que tu cherches.",
+  "source_url": "https://www.musee-lam.fr",
+  "tags": [
+   "art moderne",
+   "art brut"
+  ],
+  "lat": 50.63777778,
+  "lng": 3.14805556
+ },
+ {
+  "id": "la-piscine-roubaix",
+  "name": "La Piscine",
+  "category": "museum",
+  "address": "23 Rue de l'Espérance, 59100 Roubaix",
+  "why": "Musée dans une piscine Art déco. Le lieu vaut le détour ; expos de mode, design et céramique.",
+  "source_url": "https://en.lebonbon.fr/lille/culture/dont-miss-the-expos-around-lille-this-back-to-school",
+  "tags": [
+   "art déco",
+   "design"
+  ],
+  "lat": 50.692577,
+  "lng": 3.16756
+ },
+ {
+  "id": "le-fresnoy",
+  "name": "Le Fresnoy",
+  "category": "museum",
+  "address": "22 Rue du Fresnoy, 59200 Tourcoing",
+  "why": "Studio national des arts contemporains. Expo Panorama : image, son et art numérique.",
+  "source_url": "https://en.lebonbon.fr/lille/culture/dont-miss-the-expos-around-lille-this-back-to-school",
+  "tags": [
+   "art numérique"
+  ],
+  "lat": 50.700446,
+  "lng": 3.155109
+ },
+ {
+  "id": "villa-cavrois",
+  "name": "Villa Cavrois",
+  "category": "museum",
+  "address": "60 Avenue du Président John Fitzgerald Kennedy, 59170 Croix",
+  "why": "Villa moderniste de Mallet-Stevens (1932), restaurée. Architecture épurée.",
+  "source_url": "https://en.lebonbon.fr/lille/culture/dont-miss-the-expos-around-lille-this-back-to-school",
+  "tags": [
+   "architecture",
+   "moderne"
+  ],
+  "lat": 50.666736,
+  "lng": 3.164053
+ },
+ {
+  "id": "beffroi-hotel-de-ville",
+  "name": "Beffroi de l'Hôtel de Ville",
+  "category": "viewpoint",
+  "address": "Place Augustin Laurent, 59000 Lille",
+  "why": "Beffroi UNESCO de 104 m. Vue sur toute la ville du haut.",
+  "source_url": "https://en.lilletourism.com/not-to-miss-in-lille.html",
+  "tags": [
+   "vue",
+   "UNESCO"
+  ],
+  "lat": 50.6306,
+  "lng": 3.07099
+ },
+ {
+  "id": "vieille-bourse",
+  "name": "Vieille Bourse et bouquinistes",
+  "category": "local",
+  "address": "Place du Général de Gaulle, 59800 Lille",
+  "why": "Cour baroque avec bouquinistes. Le dimanche, des danseurs de tango s'y retrouvent.",
+  "source_url": "https://en.lilletourism.com/not-to-miss-in-lille.html",
+  "tags": [
+   "folklore",
+   "livres"
+  ],
+  "lat": 50.6372,
+  "lng": 3.0645
+ },
+ {
+  "id": "grand-place",
+  "name": "Grand'Place",
+  "category": "viewpoint",
+  "address": "Place du Général de Gaulle, 59800 Lille",
+  "why": "Cœur de la ville : façades flamandes, Grand'Garde, colonne de la Déesse.",
+  "source_url": "https://en.lilletourism.com/not-to-miss-in-lille.html",
+  "tags": [
+   "monument"
+  ],
+  "lat": 50.636895,
+  "lng": 3.0636
+ },
+ {
+  "id": "cathedrale-treille",
+  "name": "Cathédrale Notre-Dame-de-la-Treille",
+  "category": "viewpoint",
+  "address": "Place Gilleson, 59800 Lille",
+  "why": "Façade contemporaine en marbre translucide, étonnante au soleil.",
+  "source_url": "https://en.lilletourism.com/not-to-miss-in-lille.html",
+  "tags": [
+   "monument"
+  ],
+  "lat": 50.64,
+  "lng": 3.06222222
+ },
+ {
+  "id": "marche-wazemmes",
+  "name": "Marché de Wazemmes",
+  "category": "local",
+  "address": "Place de la Nouvelle Aventure, 59000 Lille",
+  "why": "Le grand marché populaire, surtout le dimanche matin. Halles, fleurs, brocante, ambiance.",
+  "source_url": "https://en.lilletourism.com/not-to-miss-in-lille.html",
+  "tags": [
+   "marché",
+   "dimanche"
+  ],
+  "lat": 50.626359,
+  "lng": 3.049297
+ },
+ {
+  "id": "jardins-basse-deule",
+  "name": "Jardins de la Basse-Deûle",
+  "category": "local",
+  "address": "Rue du Bastion Saint-André, 59800 Lille",
+  "why": "Nouveau parc de 10 ha le long de la Deûle et des remparts Vauban, avec passerelle.",
+  "source_url": "https://www.lebonbon.fr/lille/news/cette-oasis-10-hectares-cachee-coeur-lille-risque-devenir-votre-nouvelle-balade-preferee/",
+  "tags": [
+   "nature",
+   "Deûle"
+  ],
+  "lat": 50.648695,
+  "lng": 3.058192
+ },
+ {
+  "id": "balade-vieux-lille",
+  "name": "Balade dans le Vieux-Lille",
+  "category": "walk",
+  "address": "Départ : gare Lille-Flandres",
+  "lat": 50.635759,
+  "lng": 3.072469,
+  "why": "2,5 km, environ 1 h sans les pauses. Grand'Place, Vieille Bourse, cathédrale, place aux Oignons, rue de Gand jusqu'à la porte de Gand.",
+  "source_url": "https://www.visorando.com/randonnee-de-la-grand-place-de-lille-a-l-eco-quart/",
+  "tags": [
+   "à pied",
+   "historique"
+  ],
+  "route": [
+   [
+    50.635759,
+    3.072469
+   ],
+   [
+    50.637501,
+    3.064191
+   ],
+   [
+    50.636895,
+    3.0636
+   ],
+   [
+    50.6372,
+    3.0645
+   ],
+   [
+    50.638176,
+    3.060893
+   ],
+   [
+    50.64,
+    3.062222
+   ],
+   [
+    50.64098,
+    3.06159
+   ],
+   [
+    50.64111,
+    3.06317
+   ],
+   [
+    50.642492,
+    3.066521
+   ],
+   [
+    50.6438,
+    3.06792
+   ]
+  ]
+ },
+ {
+  "id": "balade-citadelle-deule",
+  "name": "Citadelle et bords de la Deûle",
+  "category": "walk",
+  "address": "Départ : square Daubenton, Vieux-Lille",
+  "lat": 50.637999,
+  "lng": 3.052631,
+  "why": "Environ 6 km, 1 h 30. Quai du Wault, tour de la Citadelle de Vauban par le bois, puis les nouveaux Jardins de la Basse-Deûle. Tracé approximatif.",
+  "source_url": "https://www.visorando.com/randonnee-vers-la-citadelle",
+  "tags": [
+   "à pied",
+   "nature",
+   "Deûle"
+  ],
+  "route": [
+   [
+    50.637999,
+    3.052631
+   ],
+   [
+    50.637603,
+    3.054024
+   ],
+   [
+    50.637942,
+    3.049586
+   ],
+   [
+    50.6385,
+    3.048
+   ],
+   [
+    50.6375,
+    3.043
+   ],
+   [
+    50.641,
+    3.0385
+   ],
+   [
+    50.6455,
+    3.042
+   ],
+   [
+    50.6445,
+    3.0475
+   ],
+   [
+    50.6428,
+    3.0525
+   ],
+   [
+    50.646,
+    3.0555
+   ],
+   [
+    50.648695,
+    3.058192
+   ],
+   [
+    50.644201,
+    3.06256
+   ]
+  ]
+ },
+ {
+  "id": "balade-wazemmes-dimanche",
+  "name": "Wazemmes un dimanche matin",
+  "category": "walk",
+  "address": "Départ : place Sébastopol",
+  "lat": 50.628762,
+  "lng": 3.058826,
+  "why": "Environ 2 km. Rue Gambetta et ses fripes, puis le marché de Wazemmes et la Maison Folie. À faire le dimanche avant 14 h.",
+  "source_url": "https://en.lilletourism.com/not-to-miss-in-lille.html",
+  "tags": [
+   "à pied",
+   "marché",
+   "fripes"
+  ],
+  "route": [
+   [
+    50.628762,
+    3.058826
+   ],
+   [
+    50.63052,
+    3.057516
+   ],
+   [
+    50.628556,
+    3.052193
+   ],
+   [
+    50.627173,
+    3.050281
+   ],
+   [
+    50.626359,
+    3.049297
+   ],
+   [
+    50.624937,
+    3.04819
+   ]
+  ]
+ }
+]
