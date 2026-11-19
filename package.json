@@ -1,0 +1,45 @@
+{
+  "name": "lille-city-guide",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "predev": "node -e \"require('fs').copyFileSync(require.resolve('maplibre-gl/dist/maplibre-gl-worker.mjs'),'public/maplibre-gl-worker.mjs')\"",
+    "dev": "next dev",
+    "prebuild": "node -e \"require('fs').copyFileSync(require.resolve('maplibre-gl/dist/maplibre-gl-worker.mjs'),'public/maplibre-gl-worker.mjs')\"",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "format": "prettier --write \"**/*.{ts,tsx}\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@base-ui/react": "^1.9.0",
+    "@untitledui/icons": "^0.0.23",
+    "@upstash/redis": "^1.41.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.76.0",
+    "maplibre-gl": "^6.19.0",
+    "motion": "^14.14.0",
+    "next": "16.4.5",
+    "next-themes": "^0.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "tailwind-merge": "^3.7.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.5",
+    "prettier": "^3.9.10",
+    "prettier-plugin-tailwindcss": "^0.8.1",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vitest": "^3.2.7"
+  }
+}
