@@ -115,8 +115,8 @@ export default function Page() {
                 onSelect={(i) => setMode(i === 0 ? "ambiance" : "details")}
                 size="compact"
               >
-                <TabsItem index={0} label="Ambiance" />
-                <TabsItem index={1} label="Détails" />
+                <TabsItem index={0} label="Heatmap" />
+                <TabsItem index={1} label="Places" />
               </Tabs>
             </div>
           </div>

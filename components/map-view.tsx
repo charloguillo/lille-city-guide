@@ -197,7 +197,7 @@ export default function MapView({
     )
   }, [places, flags, styleReady])
 
-  // Ambiance / Détails crossfade.
+  // Heatmap / Places crossfade.
   useEffect(() => {
     const map = mapRef.current
     if (!map || !styleReady || !map.getLayer("heat")) return
