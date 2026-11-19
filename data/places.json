@@ -12,7 +12,9 @@
   ],
   "lat": 50.636335,
   "lng": 3.0659,
-  "diet": "veggie"
+  "diet": "veggie",
+  "photo_url": "https://cdn.lefooding.com/medias/2022/03/©-Bleu-Canard-OK.jpg",
+  "photo_credit": "Le Fooding"
  },
  {
   "id": "aokamo",
@@ -27,7 +29,9 @@
   ],
   "lat": 50.636352,
   "lng": 3.065877,
-  "diet": "meat"
+  "diet": "meat",
+  "photo_url": "https://cdn.lefooding.com/medias/2025/12/Aokamo-OK.jpg",
+  "photo_credit": "Le Fooding"
  },
  {
   "id": "bistrot-brigand",
@@ -42,7 +46,9 @@
   ],
   "lat": 50.633582,
   "lng": 3.061463,
-  "diet": "meat"
+  "diet": "meat",
+  "photo_url": "https://cdn.lefooding.com/medias/2021/08/restaurant-bistrot-brigand-lille.jpeg",
+  "photo_credit": "Le Fooding"
  },
  {
   "id": "krevette",
@@ -57,7 +63,9 @@
   ],
   "lat": 50.625011,
   "lng": 3.068269,
-  "diet": "meat"
+  "diet": "meat",
+  "photo_url": "https://cdn.lefooding.com/medias/2025/03/264A6442.jpg",
+  "photo_credit": "Le Fooding"
  },
  {
   "id": "cafe-bellot",
@@ -72,7 +80,9 @@
   ],
   "lat": 50.624254,
   "lng": 3.06441,
-  "diet": "unknown"
+  "diet": "unknown",
+  "photo_url": "https://cdn.lefooding.com/medias/2022/06/3.jpg",
+  "photo_credit": "Le Fooding"
  },
  {
   "id": "bloempot",
@@ -87,7 +97,9 @@
   ],
   "lat": 50.638104,
   "lng": 3.058315,
-  "diet": "meat"
+  "diet": "meat",
+  "photo_url": "https://cdn.lefooding.com/medias/2021/07/17_08_31_453_restaurant_bloempot_lille.jpg",
+  "photo_credit": "Le Fooding"
  },
  {
   "id": "ginko",
@@ -102,7 +114,9 @@
   ],
   "lat": 50.635328,
   "lng": 3.060095,
-  "diet": "veggie"
+  "diet": "veggie",
+  "photo_url": "https://cdn.lefooding.com/medias/2024/02/OK-GINKO_HD-9518-1.jpg",
+  "photo_credit": "Le Fooding"
  },
  {
   "id": "beatriz",
@@ -132,7 +146,9 @@
   ],
   "lat": 50.645096,
   "lng": 3.057049,
-  "diet": "unknown"
+  "diet": "unknown",
+  "photo_url": "https://cdn.lefooding.com/medias/2024/01/EPICE-3-OK-.jpeg",
+  "photo_credit": "Le Fooding"
  },
  {
   "id": "bouillant",
@@ -147,7 +163,9 @@
   ],
   "lat": 50.626948,
   "lng": 3.048417,
-  "diet": "unknown"
+  "diet": "unknown",
+  "photo_url": "https://cdn.lefooding.com/medias/2025/12/4.-Bouillant-OK.jpg",
+  "photo_credit": "Le Fooding"
  },
  {
   "id": "estaminet-au-vieux-de-la-vieille",
@@ -162,7 +180,9 @@
   ],
   "lat": 50.640863,
   "lng": 3.061395,
-  "diet": "meat"
+  "diet": "meat",
+  "photo_url": "https://aupetitvieux.fr/api/vignette/?src=media%2Fvenues%2Fvieux-de-la-vieille%2Fdevanture.webp",
+  "photo_credit": "Estaminet Lille"
  },
  {
   "id": "estaminet-chez-la-vieille",
@@ -177,7 +197,9 @@
   ],
   "lat": 50.642729,
   "lng": 3.06685,
-  "diet": "meat"
+  "diet": "meat",
+  "photo_url": "https://aupetitvieux.fr/api/vignette/?src=media%2Fvenues%2Fchez-la-vieille%2Fdevanture.webp",
+  "photo_credit": "Estaminet Lille"
  },
  {
   "id": "estaminet-la-chtite-brigitte",
@@ -235,7 +257,9 @@
    "café de spécialité"
   ],
   "lat": 50.638413,
-  "lng": 3.060176
+  "lng": 3.060176,
+  "photo_url": "https://bienvenue.cafe/images/photo/DSC04533.jpg",
+  "photo_credit": "Bienvenue Coffee Shop"
  },
  {
   "id": "detail-epicerie",
@@ -249,7 +273,9 @@
    "épicerie"
   ],
   "lat": 50.639879,
-  "lng": 3.056182
+  "lng": 3.056182,
+  "photo_url": "https://contrepoint-lacatholille.fr/wp-content/uploads/2023/10/DSC03317.jpg",
+  "photo_credit": "Contrepoint"
  },
  {
   "id": "brood",
@@ -263,7 +289,9 @@
    "boulangerie"
   ],
   "lat": 50.622328,
-  "lng": 3.062366
+  "lng": 3.062366,
+  "photo_url": "https://cdn.lefooding.com/medias/2021/11/Boulangerie-Brood-Lille.jpg",
+  "photo_credit": "Le Fooding"
  },
  {
   "id": "joe-tex-cafe",
@@ -290,7 +318,9 @@
    "gaufre"
   ],
   "lat": 50.637754,
-  "lng": 3.06193
+  "lng": 3.06193,
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Lille_Meert.JPG/1280px-Lille_Meert.JPG",
+  "photo_credit": "Wikimedia Commons"
  },
  {
   "id": "biovino",
@@ -332,7 +362,9 @@
    "vin"
   ],
   "lat": 50.639924,
-  "lng": 3.058096
+  "lng": 3.058096,
+  "photo_url": "https://cdn.lefooding.com/medias/2023/11/9-La-Cave-du-Presentoir.jpg",
+  "photo_credit": "Le Fooding"
  },
  {
   "id": "laffinee",
@@ -346,7 +378,9 @@
    "fromage"
   ],
   "lat": 50.625948,
-  "lng": 3.064074
+  "lng": 3.064074,
+  "photo_url": "https://cdn.lefooding.com/medias/2021/11/Laffinee.jpeg",
+  "photo_credit": "Le Fooding"
  },
  {
   "id": "la-superette",
@@ -360,7 +394,9 @@
    "à vérifier"
   ],
   "lat": 50.639402,
-  "lng": 3.062057
+  "lng": 3.062057,
+  "photo_url": "https://uploads.lebonbon.fr/source/2019/january/20981v374b_1_950.jpg",
+  "photo_credit": "Le Bonbon"
  },
  {
   "id": "kilo-shop-lille",
@@ -373,7 +409,9 @@
    "kilo"
   ],
   "lat": 50.639693,
-  "lng": 3.064723
+  "lng": 3.064723,
+  "photo_url": "https://www.kilo-shop.com/wp-content/uploads/2024/02/lille-min-946x1024.webp",
+  "photo_credit": "Kilo Shop"
  },
  {
   "id": "bon-chic-bonne-fripe",
@@ -400,7 +438,9 @@
    "wazemmes"
   ],
   "lat": 50.63052,
-  "lng": 3.057516
+  "lng": 3.057516,
+  "photo_url": "https://lilleaddict.fr/wp-content/uploads/2024/07/capture-decran-2024-07-25-175854.png",
+  "photo_credit": "Lille Addict"
  },
  {
   "id": "be-bop-vintage",
@@ -439,7 +479,9 @@
    "homme"
   ],
   "lat": 50.64098,
-  "lng": 3.06159
+  "lng": 3.06159,
+  "photo_url": "https://www.fripe-chic.fr/wp-content/uploads/2025/07/photo-1722-780x270.jpeg",
+  "photo_credit": "Fripe Chic"
  },
  {
   "id": "nostalgie-vintage",
@@ -493,7 +535,9 @@
    "gratuit"
   ],
   "lat": 50.643436,
-  "lng": 3.065589
+  "lng": 3.065589,
+  "photo_url": "https://api.cloudly.space/resize/clip/1920/1200/75/aHR0cHM6Ly9oYXV0c2RlZnJhbmNlLm1lZGlhLnRvdXJpbnNvZnQuZXUvdXBsb2FkL0luc3RpdHV0LWRlLWxhLXBob3RvZ3JhcGhpZS0tLUxpbGxlLVRvdXJpc21lLS0xLS5KUEc=/image.webp",
+  "photo_credit": "Office de Tourisme de Lille"
  },
  {
   "id": "tripostal",
@@ -520,7 +564,9 @@
    "friche"
   ],
   "lat": 50.627243,
-  "lng": 3.069803
+  "lng": 3.069803,
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Lille_gare_st_sauveur.JPG/1280px-Lille_gare_st_sauveur.JPG",
+  "photo_credit": "Wikimedia Commons"
  },
  {
   "id": "maison-folie-wazemmes",
@@ -547,7 +593,9 @@
    "art brut"
   ],
   "lat": 50.63777778,
-  "lng": 3.14805556
+  "lng": 3.14805556,
+  "photo_url": "https://upload.wikimedia.org/wikipedia/fr/thumb/1/1b/VdA_LaM.jpg/1280px-VdA_LaM.jpg",
+  "photo_credit": "Wikimedia Commons"
  },
  {
   "id": "la-piscine-roubaix",
@@ -561,7 +609,9 @@
    "design"
   ],
   "lat": 50.692577,
-  "lng": 3.16756
+  "lng": 3.16756,
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/La_Piscine_Roubaix.jpg/1280px-La_Piscine_Roubaix.jpg",
+  "photo_credit": "Wikimedia Commons"
  },
  {
   "id": "le-fresnoy",
@@ -574,7 +624,9 @@
    "art numérique"
   ],
   "lat": 50.700446,
-  "lng": 3.155109
+  "lng": 3.155109,
+  "photo_url": "https://www.lefresnoy.net/app/uploads/2024/06/Le-Fresnoy_entre-deux_photo-Peter-Mauss-Esto-1.jpg",
+  "photo_credit": "Le Fresnoy"
  },
  {
   "id": "villa-cavrois",
@@ -588,7 +640,9 @@
    "moderne"
   ],
   "lat": 50.666736,
-  "lng": 3.164053
+  "lng": 3.164053,
+  "photo_url": "https://upload.wikimedia.org/wikipedia/fr/d/d5/Villa_Cavrois_Image_Facade_Sud.jpg",
+  "photo_credit": "Wikimedia Commons"
  },
  {
   "id": "beffroi-hotel-de-ville",
@@ -602,7 +656,9 @@
    "UNESCO"
   ],
   "lat": 50.6306,
-  "lng": 3.07099
+  "lng": 3.07099,
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Lille_hotel_de_ville_porte_de_paris.jpg/1280px-Lille_hotel_de_ville_porte_de_paris.jpg",
+  "photo_credit": "Wikimedia Commons"
  },
  {
   "id": "vieille-bourse",
@@ -616,7 +672,9 @@
    "livres"
   ],
   "lat": 50.6372,
-  "lng": 3.0645
+  "lng": 3.0645,
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Lille%2C_la_Vieille_Bourse_%28PA00107639%29.jpg/1280px-Lille%2C_la_Vieille_Bourse_%28PA00107639%29.jpg",
+  "photo_credit": "Wikimedia Commons"
  },
  {
   "id": "grand-place",
@@ -629,7 +687,9 @@
    "monument"
   ],
   "lat": 50.636895,
-  "lng": 3.0636
+  "lng": 3.0636,
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Lille_vue_gd_place.JPG/1280px-Lille_vue_gd_place.JPG",
+  "photo_credit": "Wikimedia Commons"
  },
  {
   "id": "cathedrale-treille",
@@ -642,7 +702,9 @@
    "monument"
   ],
   "lat": 50.64,
-  "lng": 3.06222222
+  "lng": 3.06222222,
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Lille_ND_treille_ouest.JPG/1280px-Lille_ND_treille_ouest.JPG",
+  "photo_credit": "Wikimedia Commons"
  },
  {
   "id": "marche-wazemmes",
@@ -656,7 +718,9 @@
    "dimanche"
   ],
   "lat": 50.626359,
-  "lng": 3.049297
+  "lng": 3.049297,
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Lille_halles_wazemmes.JPG/1280px-Lille_halles_wazemmes.JPG",
+  "photo_credit": "Wikimedia Commons"
  },
  {
   "id": "jardins-basse-deule",
@@ -670,7 +734,9 @@
    "Deûle"
   ],
   "lat": 50.648695,
-  "lng": 3.058192
+  "lng": 3.058192,
+  "photo_url": "https://uploads.lebonbon.fr/source/2026/june/2091229/parc-maisons-arbres-eau_2_1200.jpg",
+  "photo_credit": "Le Bonbon"
  },
  {
   "id": "balade-vieux-lille",
@@ -726,7 +792,9 @@
     50.6438,
     3.06792
    ]
-  ]
+  ],
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Lille_RueEsquermoise.JPG/1280px-Lille_RueEsquermoise.JPG",
+  "photo_credit": "Wikimedia Commons"
  },
  {
   "id": "balade-citadelle-deule",
@@ -791,7 +859,9 @@
     50.644201,
     3.06256
    ]
-  ]
+  ],
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Jielbeaumadier_citadelle_lille_2006.jpg/1280px-Jielbeaumadier_citadelle_lille_2006.jpg",
+  "photo_credit": "Wikimedia Commons"
  },
  {
   "id": "balade-wazemmes-dimanche",
@@ -832,7 +902,9 @@
     50.624937,
     3.04819
    ]
-  ]
+  ],
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Wazemmes_halles2.jpg/1280px-Wazemmes_halles2.jpg",
+  "photo_credit": "Wikimedia Commons"
  },
  {
   "id": "albedo-kitchen",
@@ -848,7 +920,9 @@
    "wazemmes"
   ],
   "hours": "Mer soir, jeu-sam midi et soir (à vérifier)",
-  "diet": "veggie"
+  "diet": "veggie",
+  "photo_url": "https://www.pariszigzag.fr/wp-content/uploads/2026/03/meilleur-restaurant-vegan-de-france-a-lille-albedo-kitchen-zigzag.jpg",
+  "photo_credit": "Paris ZigZag"
  },
  {
   "id": "itsy-bitsy",
@@ -863,7 +937,9 @@
    "vegan",
    "brunch"
   ],
-  "diet": "veggie"
+  "diet": "veggie",
+  "photo_url": "https://itsy-bitsy.onataste.fr/media/1-itsy-bitsy.jpg",
+  "photo_credit": "Itsy Bitsy"
  },
  {
   "id": "la-clairiere",

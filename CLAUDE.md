@@ -32,7 +32,7 @@ components/place-sheet.tsx Bottom sheet: name, category, why, tags, À faire / F
 public/manifest.webmanifest, public/sw.js
 ```
 Place shape:
-`{ id (stable kebab slug, never change), name, category, address, lat, lng, why (FR), source_url, tags[], hours?, route?: [lat,lng][], photo_url?, diet?: "meat"|"veggie"|"unknown" (restaurants only) }`
+`{ id (stable kebab slug, never change), name, category, address, lat, lng, why (FR), source_url, tags[], hours?, route?: [lat,lng][], photo_url?, photo_credit?, diet?: "meat"|"veggie"|"unknown" (restaurants only) }`
 Categories: cafe, restaurant, bar, shop, gallery, museum, thrift, walk, viewpoint, local.
 
 Flags shape (Redis hash `flags`, field = place id): `{ mustDo: boolean, done: boolean, updatedAt: number }`. Last write wins per place. The client polls every ~20 s and on window focus. Optimistic UI: write local first, then POST; retry when back online.
@@ -68,3 +68,4 @@ Flags shape (Redis hash `flags`, field = place id): `{ mustDo: boolean, done: bo
 - `npx shadcn add ... --overwrite` is needed in a non-interactive shell.
 - Without Redis env vars (local dev), `/api/flags` falls back to an in-memory map, and the client still works from localStorage.
 - Place ids are keys in Redis. Renaming an id loses its flags.
+- Photos: `photo_url` is a remote image (place's own site, blog, Le Fooding, Office de Tourisme, Wikimedia). Served through next/image, so its host must be in `PHOTO_HOSTS` in `next.config.ts`. Do not use Instagram, Facebook or Google Maps image URLs: they expire. Photos are grayscale in "Noir et blanc" mode. The sandbox server cannot fetch them: set `PHOTOS_UNOPTIMIZED=1` for local screenshots.

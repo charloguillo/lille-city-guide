@@ -27,6 +27,7 @@ export interface Place {
   hours?: string
   route?: [number, number][]
   photo_url?: string
+  photo_credit?: string
   diet?: Diet
 }
 

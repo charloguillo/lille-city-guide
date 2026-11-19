@@ -250,7 +250,7 @@ export default function MapView({
         center: [p.lng, p.lat],
         zoom: Math.max(map.getZoom(), 16),
         // The sheet covers the bottom: center the pin in the visible part.
-        offset: [0, -Math.round(map.getContainer().clientHeight * 0.2)],
+        offset: [0, -Math.round(map.getContainer().clientHeight * 0.3)],
         duration: 600,
         essential: true,
       })
