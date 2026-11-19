@@ -11,7 +11,8 @@
    "bistrot"
   ],
   "lat": 50.636335,
-  "lng": 3.0659
+  "lng": 3.0659,
+  "diet": "veggie"
  },
  {
   "id": "aokamo",
@@ -25,7 +26,8 @@
    "japonais"
   ],
   "lat": 50.636352,
-  "lng": 3.065877
+  "lng": 3.065877,
+  "diet": "meat"
  },
  {
   "id": "bistrot-brigand",
@@ -39,7 +41,8 @@
    "néobistrot"
   ],
   "lat": 50.633582,
-  "lng": 3.061463
+  "lng": 3.061463,
+  "diet": "meat"
  },
  {
   "id": "krevette",
@@ -53,7 +56,8 @@
    "poisson"
   ],
   "lat": 50.625011,
-  "lng": 3.068269
+  "lng": 3.068269,
+  "diet": "meat"
  },
  {
   "id": "cafe-bellot",
@@ -67,7 +71,8 @@
    "bistrot"
   ],
   "lat": 50.624254,
-  "lng": 3.06441
+  "lng": 3.06441,
+  "diet": "unknown"
  },
  {
   "id": "bloempot",
@@ -81,7 +86,8 @@
    "flamand"
   ],
   "lat": 50.638104,
-  "lng": 3.058315
+  "lng": 3.058315,
+  "diet": "meat"
  },
  {
   "id": "ginko",
@@ -95,7 +101,8 @@
    "végétarien"
   ],
   "lat": 50.635328,
-  "lng": 3.060095
+  "lng": 3.060095,
+  "diet": "veggie"
  },
  {
   "id": "beatriz",
@@ -109,7 +116,8 @@
    "mexicain"
   ],
   "lat": 50.626388,
-  "lng": 3.068238
+  "lng": 3.068238,
+  "diet": "meat"
  },
  {
   "id": "chez-georges",
@@ -123,7 +131,8 @@
    "bistrot"
   ],
   "lat": 50.645096,
-  "lng": 3.057049
+  "lng": 3.057049,
+  "diet": "unknown"
  },
  {
   "id": "bouillant",
@@ -137,7 +146,8 @@
    "wazemmes"
   ],
   "lat": 50.626948,
-  "lng": 3.048417
+  "lng": 3.048417,
+  "diet": "unknown"
  },
  {
   "id": "estaminet-au-vieux-de-la-vieille",
@@ -151,7 +161,8 @@
    "folklore"
   ],
   "lat": 50.640863,
-  "lng": 3.061395
+  "lng": 3.061395,
+  "diet": "meat"
  },
  {
   "id": "estaminet-chez-la-vieille",
@@ -165,7 +176,8 @@
    "folklore"
   ],
   "lat": 50.642729,
-  "lng": 3.06685
+  "lng": 3.06685,
+  "diet": "meat"
  },
  {
   "id": "estaminet-la-chtite-brigitte",
@@ -179,7 +191,8 @@
    "folklore"
   ],
   "lat": 50.638468,
-  "lng": 3.058304
+  "lng": 3.058304,
+  "diet": "meat"
  },
  {
   "id": "estaminet-les-ptiots",
@@ -193,7 +206,8 @@
    "folklore"
   ],
   "lat": 50.64238,
-  "lng": 3.066211
+  "lng": 3.066211,
+  "diet": "meat"
  },
  {
   "id": "estaminet-la-ducasse",
@@ -819,5 +833,66 @@
     3.04819
    ]
   ]
+ },
+ {
+  "id": "albedo-kitchen",
+  "name": "Albedo Kitchen",
+  "category": "restaurant",
+  "address": "222 Rue Léon Gambetta, 59000 Lille",
+  "lat": 50.62876,
+  "lng": 3.05266,
+  "why": "100 % vegan et bio. Petites assiettes et bowls créatifs. Prix PETA du meilleur resto vegan de France 2026.",
+  "source_url": "https://www.pariszigzag.fr/lille-actu/albedo-kitchen-vegan/",
+  "tags": [
+   "vegan",
+   "wazemmes"
+  ],
+  "hours": "Mer soir, jeu-sam midi et soir (à vérifier)",
+  "diet": "veggie"
+ },
+ {
+  "id": "itsy-bitsy",
+  "name": "Itsy Bitsy",
+  "category": "restaurant",
+  "address": "10 Rue Jeanne Maillotte, 59800 Lille",
+  "lat": 50.631762,
+  "lng": 3.062993,
+  "why": "Cuisine 100 % végétale, carte qui change chaque semaine. Brunch, bowls, burgers.",
+  "source_url": "https://mapstr.com/place/htghXDnwmIg",
+  "tags": [
+   "vegan",
+   "brunch"
+  ],
+  "diet": "veggie"
+ },
+ {
+  "id": "la-clairiere",
+  "name": "La Clairière",
+  "category": "restaurant",
+  "address": "75 Boulevard de la Liberté, 59800 Lille",
+  "lat": 50.634431,
+  "lng": 3.057311,
+  "why": "Resto vegan, menu de la semaine (burgers, curry, bowls), brunch le dimanche. Des chiens adoptés vivent sur place.",
+  "source_url": "https://mapstr.com/place/80XXi6sAzEg",
+  "tags": [
+   "vegan",
+   "brunch"
+  ],
+  "diet": "veggie"
+ },
+ {
+  "id": "pulp-kitchen",
+  "name": "Pulp Kitchen",
+  "category": "restaurant",
+  "address": "106 Rue de l'Hôpital Militaire, 59800 Lille",
+  "lat": 50.636374,
+  "lng": 3.059083,
+  "why": "Cuisine bio de saison, beaucoup de plats vegan, sans gluten ni lactose. Brunch le dimanche.",
+  "source_url": "https://mapstr.com/place/al2rhGAPtZg",
+  "tags": [
+   "végé",
+   "brunch"
+  ],
+  "diet": "veggie"
  }
 ]
