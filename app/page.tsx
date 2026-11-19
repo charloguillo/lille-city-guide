@@ -61,7 +61,12 @@ export default function Page() {
         />
       </div>
       {tab === 1 && (
-        <ListView places={visible} flags={flags} onSelect={onSelect} />
+        <ListView
+          places={visible}
+          flags={flags}
+          mono={styleId === "bw"}
+          onSelect={onSelect}
+        />
       )}
 
       {/* Top bar: filters + settings */}
@@ -136,6 +141,7 @@ export default function Page() {
       <PlaceSheet
         place={selected}
         flag={selected ? flags[selected.id] : undefined}
+        mono={styleId === "bw"}
         onClose={() => setSelectedId(null)}
       />
       <SettingsSheet

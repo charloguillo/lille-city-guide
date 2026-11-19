@@ -2,6 +2,7 @@
 
 import { Check } from "lucide-react"
 import { useEffect, useState } from "react"
+import { PlacePhoto } from "@/components/place-photo"
 import { CATEGORY_ICON } from "@/lib/category-icons"
 import {
   formatDistance,
@@ -16,10 +17,12 @@ import { cn } from "@/lib/utils"
 export function ListView({
   places,
   flags,
+  mono,
   onSelect,
 }: {
   places: Place[]
   flags: Flags
+  mono: boolean
   onSelect: (id: string) => void
 }) {
   const [pos, setPos] = useState<LatLng | null>(null)
@@ -54,15 +57,18 @@ export function ListView({
                   f?.done && "opacity-50"
                 )}
               >
-                <span
-                  className={cn(
-                    "grid size-10 shrink-0 place-items-center rounded-full",
-                    f?.mustDo
-                      ? "bg-stone-950 text-white"
-                      : "bg-white text-stone-600 ring-1 ring-stone-300"
-                  )}
-                >
-                  <Icon className="size-4" strokeWidth={1.75} />
+                <span className="relative size-14 shrink-0">
+                  <PlacePhotoOrIcon place={p} mono={mono} />
+                  <span
+                    className={cn(
+                      "absolute -right-1.5 -bottom-1.5 grid size-6 place-items-center rounded-full ring-2 ring-white",
+                      f?.mustDo
+                        ? "bg-stone-950 text-white"
+                        : "bg-white text-stone-600 ring-stone-200"
+                    )}
+                  >
+                    <Icon className="size-3" strokeWidth={2} />
+                  </span>
                 </span>
                 <span className="min-w-0 flex-1">
                   <span className="flex items-center gap-1.5 truncate text-[15px] font-medium text-stone-950">
@@ -89,5 +95,25 @@ export function ListView({
         </p>
       )}
     </div>
+  )
+}
+
+function PlacePhotoOrIcon({ place, mono }: { place: Place; mono: boolean }) {
+  const Icon = CATEGORY_ICON[place.category]
+  const icon = (
+    <span className="grid size-14 place-items-center rounded-xl bg-stone-100 text-stone-400">
+      <Icon className="size-5" strokeWidth={1.5} />
+    </span>
+  )
+  if (!place.photo_url) return icon
+  return (
+    <PlacePhoto
+      src={place.photo_url}
+      alt=""
+      mono={mono}
+      sizes="56px"
+      className="size-14 rounded-xl"
+      fallback={icon}
+    />
   )
 }

@@ -1,6 +1,6 @@
 # FRIDGE — ideas for later (not v1)
 
-- Photos for each place (free-to-use images, `photo_url`), large visual cards in the list.
+- Photos: missing for 17 places (small shops, fripes, some estaminets). Large visual cards in the list.
 - Opening hours, and "open now" filter.
 - Dark theme (needs a dark map style tuned to stone grays).
 - Full offline map (cache map tiles for central Lille).

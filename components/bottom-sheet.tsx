@@ -62,9 +62,11 @@ export function BottomSheet({
               type="button"
               onClick={onClose}
               aria-label="Fermer"
-              className="absolute top-2 right-2 grid size-11 place-items-center rounded-full text-stone-500 hover:bg-stone-100"
+              className="absolute top-2 right-2 z-10 grid size-11 place-items-center rounded-full text-stone-500 hover:text-stone-900"
             >
-              <XClose className="size-5" />
+              <span className="grid size-8 place-items-center rounded-full bg-white/90 shadow-sm ring-1 ring-stone-200 backdrop-blur">
+                <XClose className="size-4" />
+              </span>
             </button>
             {children}
           </motion.div>
