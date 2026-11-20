@@ -226,16 +226,12 @@ export default function MapView({
       if (markers.current.has(p.id)) continue
       const el = document.createElement("button")
       el.type = "button"
-      const home = p.category === "hotel"
-      el.className = home
-        ? "pin-home grid h-11 place-items-center"
-        : "pin grid size-11 place-items-center"
+      el.className = "pin grid size-11 place-items-center"
       el.setAttribute("aria-label", p.name)
       el.addEventListener("click", (e) => {
         e.stopPropagation()
         onSelect(p.id)
       })
-      if (home) el.style.zIndex = "1"
       const marker = new maplibregl.Marker({ element: el })
         .setLngLat([p.lng, p.lat])
         .addTo(map)
