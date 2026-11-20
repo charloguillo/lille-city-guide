@@ -556,6 +556,7 @@ html.transitioning *, html.transitioning *::before, html.transitioning *::after 
 .pin-wrap { transition: opacity 250ms ease-out, transform 250ms ease-out; }
 .mode-ambiance .pin { pointer-events: none; }
 .mode-ambiance .pin-wrap { opacity: 0; transform: scale(0.8); }
+.mode-ambiance .pin-home .pin-wrap { opacity: 1; transform: none; } /* our hotel stays visible in Heatmap */
 .pin-inner { animation: pin-in 250ms ease-out both; }
 @keyframes pin-in { from { opacity: 0; transform: scale(0.6); } to { opacity: 1; transform: scale(1); } }
 @media (prefers-reduced-motion: reduce) { .pin-wrap, .pin-inner { animation: none; transition: none; } }

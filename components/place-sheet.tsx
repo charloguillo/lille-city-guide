@@ -94,23 +94,29 @@ function PlaceBody({ place, flag }: { place: Place; flag?: Flag }) {
             ))}
           </div>
         )}
-        <div className="mt-5 -mr-8 grid grid-cols-3 gap-2 [&_a]:h-11 [&_button]:h-11">
-          <Button
-            variant={mustDo ? "primary" : "tertiary"}
-            leadingIcon={Star01}
-            onClick={() => setFlag(place.id, { mustDo: !mustDo })}
-            aria-pressed={mustDo}
-          >
-            À faire
-          </Button>
-          <Button
-            variant={done ? "primary" : "tertiary"}
-            leadingIcon={Check}
-            onClick={() => setFlag(place.id, { done: !done })}
-            aria-pressed={done}
-          >
-            Fait
-          </Button>
+        <div
+          className={`mt-5 -mr-8 grid gap-2 [&_a]:h-11 [&_button]:h-11 ${place.category === "hotel" ? "grid-cols-1" : "grid-cols-3"}`}
+        >
+          {place.category !== "hotel" && (
+            <>
+              <Button
+                variant={mustDo ? "primary" : "tertiary"}
+                leadingIcon={Star01}
+                onClick={() => setFlag(place.id, { mustDo: !mustDo })}
+                aria-pressed={mustDo}
+              >
+                À faire
+              </Button>
+              <Button
+                variant={done ? "primary" : "tertiary"}
+                leadingIcon={Check}
+                onClick={() => setFlag(place.id, { done: !done })}
+                aria-pressed={done}
+              >
+                Fait
+              </Button>
+            </>
+          )}
           <Button
             variant="secondary"
             leadingIcon={Navigation}

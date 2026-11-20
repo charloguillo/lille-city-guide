@@ -1,5 +1,19 @@
 [
  {
+  "id": "maison-louise",
+  "name": "Maison Louise",
+  "category": "hotel",
+  "address": "36 Rue de Gand, 59800 Lille",
+  "why": "Notre hôtel pour le week-end. Boutique-hôtel au cœur du Vieux-Lille, rue de Gand.",
+  "source_url": "https://all.accor.com/hotel/9735/index.fr.shtml",
+  "tags": [
+   "notre hôtel",
+   "vieux-lille"
+  ],
+  "lat": 50.642154,
+  "lng": 3.066093
+ },
+ {
   "id": "bleu-canard",
   "name": "Bleu Canard",
   "category": "restaurant",

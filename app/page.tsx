@@ -76,7 +76,11 @@ export default function Page() {
         />
       </div>
       {tab === 1 && (
-        <ListView places={visible} flags={flags} onSelect={onSelectFromList} />
+        <ListView
+          places={visible.filter((p) => p.category !== "hotel")}
+          flags={flags}
+          onSelect={onSelectFromList}
+        />
       )}
 
       {/* Top bar: filters + settings */}
