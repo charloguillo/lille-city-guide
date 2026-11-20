@@ -11,6 +11,7 @@ export type Category =
   | "walk"
   | "viewpoint"
   | "local"
+  | "hotel" // our hotel: always shown, special pin, not a chip
 
 export type Diet = "meat" | "veggie" | "unknown"
 
@@ -57,6 +58,7 @@ export const CATEGORY_LABEL: Record<Category, string> = {
   walk: "Balade",
   viewpoint: "Point de vue",
   local: "Spot local",
+  hotel: "Notre hôtel",
 }
 
 export const DIETS: { id: Diet; label: string }[] = [
@@ -85,6 +87,7 @@ export function filterPlaces(
   flags: Flags
 ): Place[] {
   return list.filter((p) => {
+    if (p.category === "hotel") return true
     if (filters.categories.length && !filters.categories.includes(p.category))
       return false
     if (p.category === "restaurant" && filters.diets.length) {

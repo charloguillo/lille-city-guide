@@ -29,11 +29,13 @@ function pointsGeoJSON(
 ): GeoJSON.FeatureCollection {
   return {
     type: "FeatureCollection",
-    features: places.map((p) => ({
-      type: "Feature",
-      properties: { weight: flags[p.id]?.mustDo ? 2 : 1 },
-      geometry: { type: "Point", coordinates: [p.lng, p.lat] },
-    })),
+    features: places
+      .filter((p) => p.category !== "hotel")
+      .map((p) => ({
+        type: "Feature",
+        properties: { weight: flags[p.id]?.mustDo ? 2 : 1 },
+        geometry: { type: "Point", coordinates: [p.lng, p.lat] },
+      })),
   }
 }
 
@@ -224,12 +226,16 @@ export default function MapView({
       if (markers.current.has(p.id)) continue
       const el = document.createElement("button")
       el.type = "button"
-      el.className = "pin grid size-11 place-items-center"
+      const home = p.category === "hotel"
+      el.className = home
+        ? "pin-home grid h-11 place-items-center"
+        : "pin grid size-11 place-items-center"
       el.setAttribute("aria-label", p.name)
       el.addEventListener("click", (e) => {
         e.stopPropagation()
         onSelect(p.id)
       })
+      if (home) el.style.zIndex = "1"
       const marker = new maplibregl.Marker({ element: el })
         .setLngLat([p.lng, p.lat])
         .addTo(map)

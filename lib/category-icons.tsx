@@ -1,4 +1,5 @@
 import {
+  BedDouble,
   Coffee,
   Eye,
   Footprints,
@@ -26,4 +27,5 @@ export const CATEGORY_ICON: Record<Category, LucideIcon> = {
   walk: Footprints,
   viewpoint: Eye,
   local: Star,
+  hotel: BedDouble,
 }
