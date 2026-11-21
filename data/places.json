@@ -28,7 +28,8 @@
   "lng": 3.0659,
   "diet": "veggie",
   "photo_url": "https://cdn.lefooding.com/medias/2022/03/©-Bleu-Canard-OK.jpg",
-  "photo_credit": "Le Fooding"
+  "photo_credit": "Le Fooding",
+  "hours": "Lun–sam 12h–14h et 19h–22h · dim midi"
  },
  {
   "id": "aokamo",
@@ -62,7 +63,8 @@
   "lng": 3.061463,
   "diet": "meat",
   "photo_url": "https://cdn.lefooding.com/medias/2021/08/restaurant-bistrot-brigand-lille.jpeg",
-  "photo_credit": "Le Fooding"
+  "photo_credit": "Le Fooding",
+  "hours": "Mar–ven 12h–14h30 et 19h–minuit"
  },
  {
   "id": "krevette",
@@ -96,7 +98,8 @@
   "lng": 3.06441,
   "diet": "unknown",
   "photo_url": "https://cdn.lefooding.com/medias/2022/06/3.jpg",
-  "photo_credit": "Le Fooding"
+  "photo_credit": "Le Fooding",
+  "hours": "Mar–ven 12h–15h et 18h–minuit (1h jeu–ven) · sam 18h–1h · fermé dim–lun"
  },
  {
   "id": "bloempot",
@@ -113,7 +116,8 @@
   "lng": 3.058315,
   "diet": "meat",
   "photo_url": "https://cdn.lefooding.com/medias/2021/07/17_08_31_453_restaurant_bloempot_lille.jpg",
-  "photo_credit": "Le Fooding"
+  "photo_credit": "Le Fooding",
+  "hours": "Midi seulement, 12h–13h30, en semaine"
  },
  {
   "id": "ginko",
@@ -130,7 +134,8 @@
   "lng": 3.060095,
   "diet": "veggie",
   "photo_url": "https://cdn.lefooding.com/medias/2024/02/OK-GINKO_HD-9518-1.jpg",
-  "photo_credit": "Le Fooding"
+  "photo_credit": "Le Fooding",
+  "hours": "Mar–sam 12h15–13h et 19h30–21h"
  },
  {
   "id": "beatriz",
@@ -145,7 +150,8 @@
   ],
   "lat": 50.626388,
   "lng": 3.068238,
-  "diet": "meat"
+  "diet": "meat",
+  "hours": "Mer–sam 12h–14h et 19h–22h"
  },
  {
   "id": "chez-georges",
@@ -179,7 +185,8 @@
   "lng": 3.048417,
   "diet": "unknown",
   "photo_url": "https://cdn.lefooding.com/medias/2025/12/4.-Bouillant-OK.jpg",
-  "photo_credit": "Le Fooding"
+  "photo_credit": "Le Fooding",
+  "hours": "Mar–mer 10h–minuit · jeu–sam jusqu'à 2h · dim 10h–17h · fermé lun"
  },
  {
   "id": "estaminet-au-vieux-de-la-vieille",
@@ -196,7 +203,8 @@
   "lng": 3.061395,
   "diet": "meat",
   "photo_url": "https://aupetitvieux.fr/api/vignette/?src=media%2Fvenues%2Fvieux-de-la-vieille%2Fdevanture.webp",
-  "photo_credit": "Estaminet Lille"
+  "photo_credit": "Estaminet Lille",
+  "hours": "Tous les jours 12h–14h et 19h–22h30"
  },
  {
   "id": "estaminet-chez-la-vieille",
@@ -213,7 +221,8 @@
   "lng": 3.06685,
   "diet": "meat",
   "photo_url": "https://aupetitvieux.fr/api/vignette/?src=media%2Fvenues%2Fchez-la-vieille%2Fdevanture.webp",
-  "photo_credit": "Estaminet Lille"
+  "photo_credit": "Estaminet Lille",
+  "hours": "Lun soir à sam, 12h–14h30 et 19h30–22h30 · fermé dim"
  },
  {
   "id": "estaminet-la-chtite-brigitte",
@@ -228,7 +237,8 @@
   ],
   "lat": 50.638468,
   "lng": 3.058304,
-  "diet": "meat"
+  "diet": "meat",
+  "hours": "Tous les jours 11h45–22h30"
  },
  {
   "id": "estaminet-les-ptiots",
@@ -334,7 +344,8 @@
   "lat": 50.637754,
   "lng": 3.06193,
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Lille_Meert.JPG/1280px-Lille_Meert.JPG",
-  "photo_credit": "Wikimedia Commons"
+  "photo_credit": "Wikimedia Commons",
+  "hours": "Boutique : mar–sam 10h–19h30, dim 9h–19h · resto : mar–dim midi"
  },
  {
   "id": "biovino",
@@ -551,7 +562,8 @@
   "lat": 50.643436,
   "lng": 3.065589,
   "photo_url": "https://api.cloudly.space/resize/clip/1920/1200/75/aHR0cHM6Ly9oYXV0c2RlZnJhbmNlLm1lZGlhLnRvdXJpbnNvZnQuZXUvdXBsb2FkL0luc3RpdHV0LWRlLWxhLXBob3RvZ3JhcGhpZS0tLUxpbGxlLVRvdXJpc21lLS0xLS5KUEc=/image.webp",
-  "photo_credit": "Office de Tourisme de Lille"
+  "photo_credit": "Office de Tourisme de Lille",
+  "hours": "Fermé pour travaux (réouverture prévue en 2030). Expos hors les murs, par ex. à la Gare Saint Sauveur."
  },
  {
   "id": "tripostal",
@@ -564,7 +576,8 @@
    "art contemporain"
   ],
   "lat": 50.6371,
-  "lng": 3.0737
+  "lng": 3.0737,
+  "hours": "Mer–dim 11h–18h (jeu jusqu'à 20h) · expo « Éclats du rire ! » jusqu'au 8 janv. 2027"
  },
  {
   "id": "gare-saint-sauveur",
@@ -580,7 +593,8 @@
   "lat": 50.627243,
   "lng": 3.069803,
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Lille_gare_st_sauveur.JPG/1280px-Lille_gare_st_sauveur.JPG",
-  "photo_credit": "Wikimedia Commons"
+  "photo_credit": "Wikimedia Commons",
+  "hours": "Mer–dim à partir de 12h"
  },
  {
   "id": "maison-folie-wazemmes",
@@ -593,7 +607,8 @@
    "art contemporain"
   ],
   "lat": 50.624937,
-  "lng": 3.04819
+  "lng": 3.04819,
+  "hours": "Expos : mer–dim 14h–18h"
  },
  {
   "id": "lam-villeneuve-dascq",
@@ -609,7 +624,8 @@
   "lat": 50.63777778,
   "lng": 3.14805556,
   "photo_url": "https://upload.wikimedia.org/wikipedia/fr/thumb/1/1b/VdA_LaM.jpg/1280px-VdA_LaM.jpg",
-  "photo_credit": "Wikimedia Commons"
+  "photo_credit": "Wikimedia Commons",
+  "hours": "Mar–dim 11h–19h · fermé lun"
  },
  {
   "id": "la-piscine-roubaix",
@@ -625,7 +641,8 @@
   "lat": 50.692577,
   "lng": 3.16756,
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/La_Piscine_Roubaix.jpg/1280px-La_Piscine_Roubaix.jpg",
-  "photo_credit": "Wikimedia Commons"
+  "photo_credit": "Wikimedia Commons",
+  "hours": "Mar–jeu 11h–18h · ven 11h–20h · sam–dim 13h–18h · fermé lun"
  },
  {
   "id": "le-fresnoy",
@@ -640,7 +657,8 @@
   "lat": 50.700446,
   "lng": 3.155109,
   "photo_url": "https://www.lefresnoy.net/app/uploads/2024/06/Le-Fresnoy_entre-deux_photo-Peter-Mauss-Esto-1.jpg",
-  "photo_credit": "Le Fresnoy"
+  "photo_credit": "Le Fresnoy",
+  "hours": "Mer–dim 14h–19h · expo Panorama 28 jusqu'au 3 janv. 2027"
  },
  {
   "id": "villa-cavrois",
@@ -656,7 +674,8 @@
   "lat": 50.666736,
   "lng": 3.164053,
   "photo_url": "https://upload.wikimedia.org/wikipedia/fr/d/d5/Villa_Cavrois_Image_Facade_Sud.jpg",
-  "photo_credit": "Wikimedia Commons"
+  "photo_credit": "Wikimedia Commons",
+  "hours": "Mar–dim 10h–18h (dernière entrée 17h15) · fermé lun"
  },
  {
   "id": "beffroi-hotel-de-ville",
@@ -672,7 +691,8 @@
   "lat": 50.6306,
   "lng": 3.07099,
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Lille_hotel_de_ville_porte_de_paris.jpg/1280px-Lille_hotel_de_ville_porte_de_paris.jpg",
-  "photo_credit": "Wikimedia Commons"
+  "photo_credit": "Wikimedia Commons",
+  "hours": "Mar–dim 10h–13h et 14h–17h30 · fermé lun"
  },
  {
   "id": "vieille-bourse",
@@ -688,7 +708,8 @@
   "lat": 50.6372,
   "lng": 3.0645,
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Lille%2C_la_Vieille_Bourse_%28PA00107639%29.jpg/1280px-Lille%2C_la_Vieille_Bourse_%28PA00107639%29.jpg",
-  "photo_credit": "Wikimedia Commons"
+  "photo_credit": "Wikimedia Commons",
+  "hours": "Bouquinistes : mar–dim, environ 13h–19h"
  },
  {
   "id": "grand-place",
@@ -718,7 +739,8 @@
   "lat": 50.64,
   "lng": 3.06222222,
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Lille_ND_treille_ouest.JPG/1280px-Lille_ND_treille_ouest.JPG",
-  "photo_credit": "Wikimedia Commons"
+  "photo_credit": "Wikimedia Commons",
+  "hours": "Tous les jours 10h30–18h15 (lun dès 14h)"
  },
  {
   "id": "marche-wazemmes",
@@ -734,7 +756,8 @@
   "lat": 50.626359,
   "lng": 3.049297,
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Lille_halles_wazemmes.JPG/1280px-Lille_halles_wazemmes.JPG",
-  "photo_credit": "Wikimedia Commons"
+  "photo_credit": "Wikimedia Commons",
+  "hours": "Marché : mar, jeu, dim 7h–14h · Halles : mar–sam 8h–20h, dim 8h–15h"
  },
  {
   "id": "jardins-basse-deule",
@@ -953,7 +976,8 @@
   ],
   "diet": "veggie",
   "photo_url": "https://itsy-bitsy.onataste.fr/media/1-itsy-bitsy.jpg",
-  "photo_credit": "Itsy Bitsy"
+  "photo_credit": "Itsy Bitsy",
+  "hours": "Mar–sam 12h–14h30 · jeu–sam soir 18h30–21h30"
  },
  {
   "id": "la-clairiere",
@@ -968,7 +992,8 @@
    "vegan",
    "brunch"
   ],
-  "diet": "veggie"
+  "diet": "veggie",
+  "hours": "Mer–sam 12h–14h30 · jeu–sam soir 19h30–22h · brunch dim 11h–15h"
  },
  {
   "id": "pulp-kitchen",
