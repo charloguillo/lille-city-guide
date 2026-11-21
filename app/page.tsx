@@ -2,7 +2,7 @@
 
 import dynamic from "next/dynamic"
 import { useCallback, useMemo, useState } from "react"
-import { List, Map01, Settings01 } from "@untitledui/icons"
+import { List, Map01, MarkerPin01, Settings01 } from "@untitledui/icons"
 import { Chip } from "@/components/chip"
 import { ListView } from "@/components/list-view"
 import type { MapMode } from "@/components/map-view"
@@ -30,8 +30,10 @@ function toggle<T>(list: T[], v: T): T[] {
 export default function Page() {
   const flags = useFlags()
   const [styleId, setStyleId] = useMapStyle()
-  const [tab, setTab] = useState(0) // 0 = Carte, 1 = Liste
-  const [mode, setMode] = useState<MapMode>("ambiance")
+  // Bottom tabs: 0 = Spots (pins), 1 = Heatmap, 2 = Liste. Saved so the app reopens on the last tab.
+  const [tab, setTab] = useLocalState<number>("lcg:tab", 1)
+  const mode: MapMode = tab === 1 ? "ambiance" : "details"
+  const isMap = tab !== 2
   const [categories, setCategories] = useState<Category[]>([])
   const [diets, setDiets] = useState<Diet[]>([])
   const [mustDoOnly, setMustDoOnly] = useState(false)
@@ -50,22 +52,21 @@ export default function Page() {
   const [fromList, setFromList] = useState(false)
   const onSelectFromList = useCallback((id: string) => {
     setFromList(true)
-    setMode("details")
     setTab(0)
     setSelectedId(id)
-  }, [])
+  }, [setTab])
   const onCloseSheet = () => {
     setSelectedId(null)
     if (fromList) {
       setFromList(false)
-      setTab(1)
+      setTab(2)
     }
   }
   const showDiet = categories.includes("restaurant")
 
   return (
     <main className="fixed inset-0 overflow-hidden bg-stone-100">
-      <div className={tab === 0 ? "contents" : "invisible"}>
+      <div className={isMap ? "contents" : "invisible"}>
         <MapView
           places={visible}
           flags={flags}
@@ -75,7 +76,7 @@ export default function Page() {
           onSelect={onSelect}
         />
       </div>
-      {tab === 1 && (
+      {tab === 2 && (
         <ListView
           places={visible.filter((p) => p.category !== "hotel")}
           flags={flags}
@@ -126,25 +127,11 @@ export default function Page() {
             ))}
           </div>
         )}
-        {tab === 0 && (
-          <div className="pointer-events-auto flex justify-end px-4">
-            <div className="rounded-xl bg-white/95 p-1 shadow-[0_1px_4px_rgb(0_0_0/0.12)] ring-1 ring-stone-200 backdrop-blur">
-              <Tabs
-                selectedIndex={mode === "ambiance" ? 0 : 1}
-                onSelect={(i) => setMode(i === 0 ? "ambiance" : "details")}
-                size="compact"
-              >
-                <TabsItem index={0} label="Heatmap" />
-                <TabsItem index={1} label="Places" />
-              </Tabs>
-            </div>
-          </div>
-        )}
       </header>
 
       {/* Bottom tabs */}
       <nav className="absolute inset-x-0 bottom-0 z-10 flex justify-center pb-[calc(env(safe-area-inset-bottom)+12px)]">
-        <div className="rounded-2xl bg-white/95 p-1.5 shadow-[0_4px_20px_rgb(0_0_0/0.12)] ring-1 ring-stone-200 backdrop-blur [&_[role=tab]]:min-h-11 [&_[role=tab]]:px-5">
+        <div className="rounded-2xl bg-white/95 p-1.5 shadow-[0_4px_20px_rgb(0_0_0/0.12)] ring-1 ring-stone-200 backdrop-blur [&_[role=tab]]:min-h-11 [&_[role=tab]]:px-4">
           <Tabs
             selectedIndex={tab}
             onSelect={(i) => {
@@ -152,8 +139,9 @@ export default function Page() {
               setTab(i)
             }}
           >
-            <TabsItem index={0} icon={Map01} label="Carte" />
-            <TabsItem index={1} icon={List} label="Liste" />
+            <TabsItem index={0} icon={MarkerPin01} label="Spots" />
+            <TabsItem index={1} icon={Map01} label="Heatmap" />
+            <TabsItem index={2} icon={List} label="Liste" />
           </Tabs>
         </div>
       </nav>

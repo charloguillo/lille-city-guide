@@ -1,6 +1,6 @@
 "use client"
 
-import { Check, Navigation } from "lucide-react"
+import { Check, Clock, Navigation } from "lucide-react"
 import { BottomSheet } from "@/components/bottom-sheet"
 import { PlacePhoto } from "@/components/place-photo"
 import { Button } from "@/components/ui/button"
@@ -9,13 +9,12 @@ import { setFlag } from "@/lib/flags"
 import { CATEGORY_LABEL, DIETS, type Flag, type Place } from "@/lib/places"
 import { Star01 } from "@untitledui/icons"
 
+// Always Google Maps (Charles asked). On iPhone this link opens the Google Maps app if installed.
 function directionsUrl(p: Place) {
-  const isApple =
-    typeof navigator !== "undefined" &&
-    /iPhone|iPad|Macintosh/.test(navigator.userAgent)
-  return isApple
-    ? `https://maps.apple.com/?daddr=${p.lat},${p.lng}&dirflg=w`
-    : `https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}&travelmode=walking`
+  // Walks start at a point, not at an address: use the coordinates.
+  const dest =
+    p.category === "walk" ? `${p.lat},${p.lng}` : `${p.name}, ${p.address}`
+  return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(dest)}&travelmode=walking`
 }
 
 export function PlaceSheet({
@@ -80,7 +79,10 @@ function PlaceBody({ place, flag }: { place: Place; flag?: Flag }) {
         <p className="mt-1 text-[13px] text-stone-500">{place.address}</p>
         <p className="mt-3 text-[15px] leading-6 text-stone-800">{place.why}</p>
         {place.hours && (
-          <p className="mt-2 text-[13px] text-stone-500">{place.hours}</p>
+          <p className="mt-3 flex gap-1.5 text-[13px] leading-5 text-stone-600">
+            <Clock className="mt-0.5 size-3.5 shrink-0" strokeWidth={1.75} />
+            <span>{place.hours}</span>
+          </p>
         )}
         {place.tags.length > 0 && (
           <div className="mt-3 flex flex-wrap gap-1.5">
