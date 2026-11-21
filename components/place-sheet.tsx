@@ -17,6 +17,11 @@ function directionsUrl(p: Place) {
   return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(dest)}&travelmode=walking`
 }
 
+// Google Maps page of the place: shows live opening hours.
+function mapsPlaceUrl(p: Place) {
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${p.name}, ${p.address}`)}`
+}
+
 export function PlaceSheet({
   place,
   flag,
@@ -78,11 +83,23 @@ function PlaceBody({ place, flag }: { place: Place; flag?: Flag }) {
         </h2>
         <p className="mt-1 text-[13px] text-stone-500">{place.address}</p>
         <p className="mt-3 text-[15px] leading-6 text-stone-800">{place.why}</p>
-        {place.hours && (
-          <p className="mt-3 flex gap-1.5 text-[13px] leading-5 text-stone-600">
+        {place.category !== "walk" && place.category !== "hotel" && (
+          <div className="mt-3 flex gap-1.5 text-[13px] leading-5 text-stone-600">
             <Clock className="mt-0.5 size-3.5 shrink-0" strokeWidth={1.75} />
-            <span>{place.hours}</span>
-          </p>
+            <div>
+              {place.hours && <p>{place.hours}</p>}
+              <a
+                href={mapsPlaceUrl(place)}
+                target="_blank"
+                rel="noreferrer"
+                className="text-stone-500 underline underline-offset-2"
+              >
+                {place.hours
+                  ? "Vérifier sur Google Maps"
+                  : "Voir les horaires sur Google Maps"}
+              </a>
+            </div>
+          </div>
         )}
         {place.tags.length > 0 && (
           <div className="mt-3 flex flex-wrap gap-1.5">
