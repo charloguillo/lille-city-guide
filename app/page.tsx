@@ -18,6 +18,7 @@ import {
   type Category,
   type Diet,
 } from "@/lib/places"
+import { DENSITY_STYLES, type DensityStyle } from "@/lib/density"
 import { useMapStyle } from "@/lib/settings"
 import { useLocalState } from "@/lib/use-local-state"
 
@@ -32,6 +33,10 @@ export default function Page() {
   const [styleId, setStyleId] = useMapStyle()
   // Bottom tabs: 0 = Spots (pins), 1 = Heatmap, 2 = Liste. Saved so the app reopens on the last tab.
   const [tab, setTab] = useLocalState<number>("lcg:tab", 1)
+  const [density, setDensity] = useLocalState<DensityStyle>(
+    "lcg:density",
+    "glow"
+  )
   const mode: MapMode = tab === 1 ? "ambiance" : "details"
   const isMap = tab !== 2
   const [categories, setCategories] = useState<Category[]>([])
@@ -50,11 +55,14 @@ export default function Page() {
   const onSelect = useCallback((id: string) => setSelectedId(id), [])
   // From the list: show the place on the map, with its pin. Closing the sheet goes back to the list.
   const [fromList, setFromList] = useState(false)
-  const onSelectFromList = useCallback((id: string) => {
-    setFromList(true)
-    setTab(0)
-    setSelectedId(id)
-  }, [setTab])
+  const onSelectFromList = useCallback(
+    (id: string) => {
+      setFromList(true)
+      setTab(0)
+      setSelectedId(id)
+    },
+    [setTab]
+  )
   const onCloseSheet = () => {
     setSelectedId(null)
     if (fromList) {
@@ -71,6 +79,7 @@ export default function Page() {
           places={visible}
           flags={flags}
           mode={mode}
+          density={density}
           styleId={styleId}
           selectedId={selectedId}
           onSelect={onSelect}
@@ -125,6 +134,24 @@ export default function Page() {
                 {d.label}
               </Chip>
             ))}
+          </div>
+        )}
+        {tab === 1 && (
+          <div className="pointer-events-auto flex justify-end px-4">
+            <div className="rounded-xl bg-white/95 p-1 shadow-[0_1px_4px_rgb(0_0_0/0.12)] ring-1 ring-stone-200 backdrop-blur">
+              <Tabs
+                selectedIndex={Math.max(
+                  0,
+                  DENSITY_STYLES.findIndex((d) => d.id === density)
+                )}
+                onSelect={(i) => setDensity(DENSITY_STYLES[i].id)}
+                size="compact"
+              >
+                {DENSITY_STYLES.map((d, i) => (
+                  <TabsItem key={d.id} index={i} label={d.label} />
+                ))}
+              </Tabs>
+            </div>
           </div>
         )}
       </header>
