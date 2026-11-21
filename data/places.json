@@ -984,5 +984,21 @@
    "brunch"
   ],
   "diet": "veggie"
+ },
+ {
+  "id": "ding-fring-leers",
+  "name": "Ding Fring Leers (méga fripe)",
+  "category": "thrift",
+  "address": "Centre commercial Aushopping, 1 Avenue de l'Europe, 59115 Leers",
+  "lat": 50.68158,
+  "lng": 3.21889,
+  "why": "La méga fripe : environ 1 000 m² et 54 000 pièces, 5 à 6 tonnes d'arrivages par semaine. Sans doute le plus grand Ding Fring de France. À 25 min en voiture.",
+  "source_url": "https://leers.aushopping.com/magasins/dingfring-leers",
+  "tags": [
+   "solidaire",
+   "géant",
+   "hors Lille"
+  ],
+  "hours": "Lun-sam 10h-19h, fermé le dimanche"
  }
 ]
